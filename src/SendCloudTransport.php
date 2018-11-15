@@ -32,9 +32,9 @@ class SendCloudTransport extends Transport
      */
     public function __construct($api_user, $api_key, $api_timeout)
     {
-        $this->api_user = $api_user;
-        $this->api_key  = $api_key;
-        $this->timeout  = $api_timeout;
+        $this->api_user    = $api_user;
+        $this->api_key     = $api_key;
+        $this->api_timeout = $api_timeout;
     }
 
     /**
