@@ -1,0 +1,20 @@
+{
+    "name": "jackwiy/sendcloud",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jack.wang",
+            "email": "jackwiy@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "illuminate/support": "^5.5",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "JackWiy\\Mail\\": "src/"
+        }
+    }
+}
